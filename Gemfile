@@ -29,6 +29,7 @@ gem 'simple_form'
 
 gem 'devise', '>3.2.4'
 
+gem 'geocoder'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks'
 
