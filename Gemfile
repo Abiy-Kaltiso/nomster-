@@ -33,7 +33,6 @@ gem 'geocoder'
 
 gem "figaro", '>= 1.0.0'
 
-gem 'rmagick'
 
 gem 'carrierwave'
 
