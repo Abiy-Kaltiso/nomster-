@@ -121,19 +121,21 @@
 	  </div>
 	</div>
 	<div class="clear"></div>
+</div>
 
 
 
-	 <div class="col-xs-6 col-xs-offset-1">
+
+	 <div class="booyah-box col-xs-6 col-sm-10 col-xs-offset-1">
    <!-- Button trigger modal -->
 <div class="col-xs-12 col-xs-6"><h2>Comments</h2>
-  <button type="button" class="btn btn-primary btn-md pull-left" data-toggle="modal" data-target="#myModal">
+  <button type="button" class="btn btn-primary btn-md pull-right" data-toggle="modal" data-target="#myModal">
   Add a comment
 </button>
 </div>
 </div>
 <% @place.comments.each do |comment| %>
-  <div class="col-xs-12 col-xs-6">
+  <div class="col-xs-12 col-sm-10 col-sm-offset-1">
     <blockquote>
        <% if comment.humanized_rating.present? %> 
        <b><%= comment.humanized_rating %></b> ~
